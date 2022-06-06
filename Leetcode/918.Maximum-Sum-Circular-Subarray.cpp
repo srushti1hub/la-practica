@@ -1,4 +1,4 @@
-class Solution {
+lass Solution {
 public:
     
     int kadaneAlgo(vector<int>& nums)
@@ -13,6 +13,8 @@ public:
     }
     
     int maxSubarraySumCircular(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         int noWrap = kadaneAlgo(nums);
         int Wrap,totalSum = 0;
         
