@@ -51,7 +51,7 @@ int usingXOR(int arr[], int length)
 int usingBsearch(int arr[], int length)
 {
     int high = length - 1, low = 0, mid;
-
+    std::sort(arr,arr+length);
     // Boundary Checks
     if (high == 0)
         return arr[0];
